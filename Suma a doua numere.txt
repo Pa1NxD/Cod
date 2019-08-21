@@ -1,0 +1,29 @@
+					Header:
+#ifndef SUMA_A_DOUA_NUMERE_H_
+#define SUMA_A_DOUA_NUMERE_H_
+void suma(n,m);
+#endif
+
+					Functii:
+void suma(n,m)
+	{
+		int i;
+		i=n+m;
+		printf("Suma este: ",i);
+	}
+
+					Main:
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
+int main()
+	{
+	int n,m;
+	printf("Introduceti primul numar: ");
+	scanf("%d",&n);
+	printf("Introduceti cel de-al doilea numar");
+	scanf("%d",&m);
+	suma(n,m);
+	return 0;
+	}
